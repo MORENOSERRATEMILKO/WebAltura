@@ -30,7 +30,7 @@ namespace WebAltura.Models
 
         [Required]
         [Display(Name ="Mascota")]
-        public MascotaType Mascota { get; set; }
+        public MascotaType Mascota { get; set; } 
 
     }
 }
