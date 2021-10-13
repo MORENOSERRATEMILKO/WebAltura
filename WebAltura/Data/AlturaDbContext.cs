@@ -11,7 +11,7 @@ namespace WebAltura.Data
     {
         public DbSet<AlturaCliente>Cliente { get; set; }
         public AlturaDbContext(DbContextOptions<AlturaDbContext>options):base(options)
-        {
+        {//hola
 
         }
     }
